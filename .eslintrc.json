@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "parserOptions": {
+        "parser": "babel-eslint",
+        "ecmaVersion": 2017,
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true
+    },
+    "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended",
+        "@vue/typescript"
+    ],
+    "plugins": ["html","vue"],
+    "rules": {
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "no-console": ["error"]
+    }
+}
